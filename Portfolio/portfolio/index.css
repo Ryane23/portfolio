@@ -1,0 +1,68 @@
+.portfolio-section { background-color: #111; display: flex; flex-direction: column; align-items: center; padding: 19px 7px 0 0; }
+    .header-container { display: flex; width: 828px; max-width: 100%; gap: 20px; justify-content: space-between; padding: 0 20px; }
+    .logo { color: #e53e3e; font: 800 24px Roboto, sans-serif; }
+    .nav-links { display: flex; gap: 20px; font-size: 10px; color: #fff; font-weight: 700; justify-content: space-between; margin: auto 0; }
+    .nav-link { font-family: Roboto, sans-serif; }
+    .intro-text { color: #ec3428; margin: 134px 0 0 155px; font: 600 16px Roboto, sans-serif; }
+    .main-title { color: #fff; letter-spacing: 1.92px; margin-left: 155px; font: 700 48px Roboto, sans-serif; }
+    .description { color: #d3d2d2; margin-left: 155px; font: 400 12px/22px Roboto, sans-serif; }
+    .cta-button { justify-content: center; background-color: #c11925; margin-top: 31px; color: #fff; letter-spacing: 1.85px; padding: 10px; font: 700 10px Roboto, sans-serif; }
+    .services-container { display: flex; margin-top: 91px; width: 100%; max-width: 1046px; flex-direction: column; align-items: flex-end; }
+    .services-grid { align-self: stretch; }
+    .services-row { gap: 20px; display: flex; }
+    .service-column { display: flex; flex-direction: column; line-height: normal; width: 33%; margin-left: 0; }
+    .service-card { justify-content: center; background-color: #1e1e1e; display: flex; width: 100%; flex-grow: 1; flex-direction: column; font-size: 12px; font-weight: 700; margin: 0 auto; padding: 46px 49px; }
+    .service-icon { aspect-ratio: 1; object-fit: auto; object-position: center; width: 46px; }
+    .service-title { color: #fff; letter-spacing: -1.32px; margin-top: 18px; font: 24px Roboto, sans-serif; }
+    .service-description { color: #d3d2d2; font-family: Roboto, sans-serif; font-weight: 400; line-height: 22px; margin-top: 18px; }
+    .know-more-link { display: flex; margin-top: 31px; padding-right: 6px; gap: 10px; color: #ef403f; letter-spacing: 2.22px; }
+    .arrow-icon { aspect-ratio: 0.83; object-fit: auto; object-position: center; width: 10px; stroke-width: 1.5px; stroke: #ef403f; border: 2px solid #ef403f; align-self: start; }
+    .stats-container { align-content: flex-start; flex-wrap: wrap; box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12); display: flex; margin-top: 480px; flex-direction: column; }
+    .stats-row { gap: 20px; display: flex; }
+    .stat-card { justify-content: center; align-items: center; background-color: #1e1e1e; display: flex; flex-grow: 1; flex-direction: column; width: 100%; padding: 21px 80px; }
+    .stat-number { color: #ef403f; font: 900 32px Roboto, sans-serif; }
+    .stat-label { color: #adadad; margin-top: 8px; font: 400 14px Roboto, sans-serif; }
+    .projects-header { display: flex; margin-top: 80px; width: 832px; max-width: 100%; gap: 20px; justify-content: space-between; }
+    .projects-title { color: #fff; letter-spacing: 1.26px; font: 900 28px Roboto, sans-serif; }
+    .projects-subtitle { color: #adadad; margin-top: 8px; font: 400 10px Roboto, sans-serif; }
+    .view-all-button { justify-content: center; background-color: #c01925; color: #fff; letter-spacing: 1.85px; margin: auto 0; padding: 10px; font: 700 10px Roboto, sans-serif; }
+    .projects-grid { align-content: flex-start; flex-wrap: wrap; margin-top: 55px; width: 823px; max-width: 100%; padding: 0 1px 80px; }
+    .project-row { gap: 20px; display: flex; }
+    .project-column { display: flex; flex-direction: column; line-height: normal; width: 50%; margin-left: 0; }
+    .project-card { align-items: start; display: flex; flex-direction: column; }
+    .project-image-container { justify-content: center; background-color: #1e1e1e; align-self: stretch; display: flex; flex-direction: column; padding: 78px 58px; }
+    .project-image { aspect-ratio: 1.67; object-fit: auto; object-position: center; width: 100%; }
+    .project-title { color: #fff; letter-spacing: 1px; margin-top: 18px; font: 900 20px Roboto, sans-serif; }
+    .project-link { display: flex; margin-top: 10px; gap: 10px; font-size: 12px; color: #ef403f; font-weight: 700; letter-spacing: 3px; }
+    .footer-nav { display: flex; margin-top: 68px; padding-right: 20px; gap: 20px; font-size: 10px; color: #fff; font-weight: 700; letter-spacing: 1.85px; }
+    .footer-container { justify-content: center; align-items: center; background-color: #181818; align-self: stretch; display: flex; margin-top: 59px; padding: 15px 60px; }
+    .footer-content { display: flex; width: 455px; max-width: 100%; gap: 20px; justify-content: space-between; }
+    .social-icons { align-items: start; display: flex; gap: 20px; justify-content: space-between; margin: auto 0; }
+    .social-icon { aspect-ratio: 1; object-fit: auto; object-position: center; width: 16px; }
+    
+    @media (max-width: 991px) {
+        .header-container { flex-wrap: wrap; }
+        .nav-links { white-space: initial; }
+        .intro-text { max-width: 100%; margin-top: 40px; }
+        .main-title { max-width: 100%; font-size: 40px; }
+        .description { max-width: 100%; }
+        .cta-button { padding: 0 20px; }
+        .services-container { max-width: 100%; margin-top: 40px; }
+        .services-grid { max-width: 100%; }
+        .services-row { flex-direction: column; align-items: stretch; gap: 0; }
+        .service-column { width: 100%; }
+        .service-card { margin-top: 8px; padding: 0 20px; }
+        .stats-container { max-width: 100%; margin-top: 40px; }
+        .stats-row { flex-direction: column; align-items: stretch; gap: 0; }
+        .stat-card { margin-top: 11px; padding: 0 20px; }
+        .projects-header { flex-wrap: wrap; margin-top: 40px; }
+        .view-all-button { padding: 0 20px; }
+        .projects-grid { margin-top: 40px; }
+        .project-row { flex-direction: column; align-items: stretch; gap: 0; }
+        .project-column { width: 100%; }
+        .project-card { margin-top: 30px; }
+        .project-image-container { padding: 0 20px; }
+        .footer-nav { margin-top: 40px; white-space: initial; }
+        .footer-container { max-width: 100%; margin-top: 40px; padding: 0 20px; }
+        .footer-content { flex-wrap: wrap; }
+    }
